@@ -1,0 +1,153 @@
+{
+  "room": {
+    "width_m": 3.2,
+    "length_m": 4.0,
+    "door": {
+      "x_m": 0.2,
+      "y_m": 0.0,
+      "width_m": 0.9,
+      "swing_direction": "inward_left"
+    },
+    "windows": [
+      {
+        "x_m": 1.0,
+        "y_m": 4.0,
+        "width_m": 1.2,
+        "height_m": 1.1
+      }
+    ],
+    "floor_to_ceiling_m": 2.5,
+    "fixed_features": [
+      {
+        "x_m": 2.6,
+        "y_m": 0.0,
+        "width_m": 0.6,
+        "length_m": 0.6,
+        "description": "radiator"
+      }
+    ]
+  },
+  "needs": ["home office", "guest bed"],
+  "budget_SEK": 11000,
+  "style": ["Scandinavian", "Minimal"],
+  "clearance_preferences": {
+    "walkway_min_m": 0.6
+  },
+  "placement_hints": {
+    "prefer_desk_under_window": true
+  },
+  "dataset": [
+    {
+      "product_id": "DESK_001",
+      "name": "LAGKAPTEN Desk",
+      "category": "desk",
+      "width_m": 1.2,
+      "length_m": 0.6,
+      "height_m": 0.74,
+      "price_SEK": 1295,
+      "style_tags": ["minimal", "scandinavian"],
+      "convertible": false,
+      "notes": "Simple work desk",
+      "sku_url": "https://example.com/desk_001"
+    },
+    {
+      "product_id": "DESK_002",
+      "name": "MICKE Desk Compact",
+      "category": "desk",
+      "width_m": 1.05,
+      "length_m": 0.5,
+      "height_m": 0.75,
+      "price_SEK": 995,
+      "style_tags": ["minimal"],
+      "convertible": false
+    },
+    {
+      "product_id": "CHAIR_001",
+      "name": "FLINTAN Office Chair",
+      "category": "chair",
+      "width_m": 0.7,
+      "length_m": 0.7,
+      "height_m": 1.1,
+      "price_SEK": 1095,
+      "style_tags": ["minimal", "black"],
+      "convertible": false
+    },
+    {
+      "product_id": "CHAIR_002",
+      "name": "RENBERGET Chair",
+      "category": "chair",
+      "width_m": 0.63,
+      "length_m": 0.63,
+      "height_m": 1.0,
+      "price_SEK": 795,
+      "style_tags": ["minimal", "scandinavian"],
+      "convertible": false
+    },
+    {
+      "product_id": "LIGHT_001",
+      "name": "TERTIAL Work Lamp",
+      "category": "lighting",
+      "width_m": 0.25,
+      "length_m": 0.25,
+      "height_m": 0.5,
+      "price_SEK": 249,
+      "style_tags": ["minimal"],
+      "convertible": false
+    },
+    {
+      "product_id": "BED_001",
+      "name": "UTAKER Guest Bed",
+      "category": "bed",
+      "width_m": 0.9,
+      "length_m": 2.0,
+      "height_m": 0.45,
+      "price_SEK": 2595,
+      "style_tags": ["scandinavian", "minimal"],
+      "convertible": false
+    },
+    {
+      "product_id": "SOFA_001",
+      "name": "FRIHETEN Sofa Bed",
+      "category": "sofa",
+      "width_m": 2.3,
+      "length_m": 0.95,
+      "height_m": 0.85,
+      "price_SEK": 6995,
+      "style_tags": ["scandinavian", "minimal"],
+      "convertible": true
+    },
+    {
+      "product_id": "SOFA_002",
+      "name": "KLIPPAN Sofa",
+      "category": "sofa",
+      "width_m": 1.8,
+      "length_m": 0.9,
+      "height_m": 0.8,
+      "price_SEK": 3995,
+      "style_tags": ["minimal"],
+      "convertible": false
+    },
+    {
+      "product_id": "STOR_001",
+      "name": "KALLAX Storage",
+      "category": "storage",
+      "width_m": 0.77,
+      "length_m": 0.39,
+      "height_m": 1.47,
+      "price_SEK": 799,
+      "style_tags": ["scandinavian", "minimal"],
+      "convertible": false
+    },
+    {
+      "product_id": "STOR_002",
+      "name": "BRIMNES Storage",
+      "category": "storage",
+      "width_m": 0.8,
+      "length_m": 0.41,
+      "height_m": 1.9,
+      "price_SEK": 1195,
+      "style_tags": ["scandinavian"],
+      "convertible": false
+    }
+  ]
+}
